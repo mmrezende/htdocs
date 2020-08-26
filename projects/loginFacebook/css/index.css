@@ -1,0 +1,231 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+.clear {
+	clear: both;
+}
+
+header {
+	background-color: #3b5998;
+	padding-top: 10px;
+	box-sizing: content-box;
+}
+
+.logo {
+	background-image: url('../media/logo.png');
+	width: 300px;
+	height: 80px;
+	position: relative;
+	left: 150px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+*:focus {
+	outline: none;
+	border: 0;
+}
+
+.login-container {
+	float: right;
+	margin-right: 200px;
+	margin-top: 15px;
+	position: relative;
+}
+
+.login-label-box{
+	display: inline-block;
+	width: 150px;
+	margin: 0 5px;
+}
+
+.login-input-box {
+	float: left;
+	margin: 0 5px;
+}
+
+.login-input-box > input {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	height: 23px;
+	width: 150px;
+	padding: 3px 3px 4px 3px;
+	border: 1px solid black;
+}
+
+.login-label-box > label {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	display: block;
+	color: white;
+}
+
+.login-input-box > input[type="submit"] {
+	width: 35px;
+	height: 18px;
+	font-weight: bold;
+	background-color: #4267b2;
+	border: 1px solid #29487d;
+	padding: 2px 6px;
+	color: white;
+	box-sizing: content-box;
+}
+
+/*Fim do menu*/
+
+main {
+	height: 800px;
+}
+
+main > section {
+	width: 55%;
+	float: left;
+	padding: 50px 120px;
+}
+
+main > aside {
+	width: 45%;
+	float: left;
+}
+
+section > p {
+	padding-right: 50px;
+	line-height: 30px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #0e385f;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.img-together{
+	background-image: url("../media/together.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 400px;
+	width: 100%;
+}
+
+aside {
+	padding: 20px 0;
+	padding-right: 200px;
+	text-align: center;
+}
+
+aside > hgroup {
+	text-align: left;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #333;
+	line-height: 50px;
+}
+
+aside > hgroup > h2 {
+	font-size: 35px;
+}
+
+aside > hgroup > h3 {
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.new-account-input-box {
+	padding: 5px 0;
+	height: 50px;
+	width: 100%;
+}
+
+.half {
+	width: 50%;
+	float: left;
+}
+
+.new-account-input-box > input {
+	width: 100%;
+	height: 100%;
+	padding: 8px;
+	font-size: 20px;
+	margin: 5px 0;
+	border-radius: 5px;
+	border: 1px solid #aaa;
+}
+
+.nasc > label {
+	display: block;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #666;
+	margin-top: 10px;
+	float: none;
+}
+.new-account-input-box > input[name="nome"] {
+	width: calc(100% - 10px);
+	margin-right: 10px;
+}
+
+.new-account-input-box.nasc {
+	display: block;
+	width: 100%;
+	text-align: left;
+	height: auto;
+}
+
+.new-account-input-box.nasc > input[type="date"] {
+	width: 200px;
+	float: none;
+}
+
+.new-account-input-box.genero {
+	text-align: left;
+	height: auto;
+}
+
+.new-account-input-box.genero > label {
+	display: inline-block;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #333;
+}
+
+.new-account-input-box > input[type="radio"] {
+	height: 15px;
+	width: 20px;
+	margin: 0 10px 0 15px;
+	display: inline-block;
+	text-align: left;
+	float: none;
+}
+
+
+.new-account-container p {
+	font-size: 12px;
+	padding: 20px 0;
+	text-align: left;
+	color: #333;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.new-account-input-box > input[type="submit"] {
+	text-align: center;
+	width: 180px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #69a74e;
+	text-shadow: 2px 2px #666;
+	border: 2px solid #578843;
+	margin-bottom: 10px;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+aside h4 {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #333;
+	font-size: 12px;
+	padding-top: 30px;
+}

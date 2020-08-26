@@ -1,0 +1,102 @@
+/*General*/
+
+    *{
+        font-family: 'Open Sans', sans-serif;
+        box-sizing: border-box;
+    }
+
+    html,body {
+        height: 100%;
+    }
+
+    .center {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .title {
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+
+    .subtitle {
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+
+/***/
+
+/*Header*/
+    .header {
+        height: 12vh;
+    }
+
+    .header .logo {
+        width: calc(2*16/9 * 10vh);
+        height: 10vh;
+        background-color: red;
+        float: left;
+    }
+    
+    .header .center {
+        position: relative;
+        top: 1vh;
+    }
+
+    .header .desktopMenu {
+        float: right;
+    }
+
+    .header .desktopMenu li {
+        float: left;
+        line-height: 10vh;
+    }
+
+    .header .desktopMenu :not(:first-of-type) {
+        margin-left: 40px;
+    }
+
+
+/***/
+
+/*Aside*/
+    aside {
+        position: fixed;
+        right: 1vw;
+        bottom: 1vw;
+        z-index: 2;
+    }
+
+    .floating-whatsapp {
+        height: 5vw;
+        width: 5vw;
+        background-color: green;
+        min-width: 60px;
+        min-height: 60px;
+    }
+/***/
+
+/*Hero*/
+    .hero {
+        height: 88vh;
+        position: relative;
+        background-color: lightsalmon;
+        margin-bottom: 10000px;
+    }
+
+    .hero .hero-box {
+        position: absolute;
+        top: 14vh;
+        max-width: 800px;
+        text-align: justify;
+        padding-left: 10vw;
+    }
+/***/
+
+/*Footer*/
+
+/***/
