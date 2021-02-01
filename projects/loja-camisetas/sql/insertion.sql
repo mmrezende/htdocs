@@ -1,0 +1,1 @@
+insert into prices values ("camiseta",59.9),("caneca",46.5),("copo",29.9);
